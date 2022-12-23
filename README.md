@@ -1,4 +1,5 @@
 Overview:
+
 •	Going to replicate the deep learning model behind the 2017 paper PubMed 200k RCT: a Dataset for Sequential Sentence Classification in Medical Abstract 
 •	When it was released, the paper presented a new dataset called PubMed 200k RCT which consists of ~200,000 labelled Randomized Controlled Trial (RCT) Abstract. 
 •	The goal of the dataset was to explore the ability of NLP models to classify sentences which appear in sequential order.
