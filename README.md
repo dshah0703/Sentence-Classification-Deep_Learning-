@@ -1,13 +1,21 @@
 Overview:
 
-•	Going to replicate the deep learning model behind the 2017 paper PubMed 200k RCT: a Dataset for Sequential Sentence Classification in Medical Abstract 
+•	Going to replicate the deep learning model behind the 2017 paper PubMed 200k RCT: a Dataset for Sequential Sentence Classification in Medical Abstract
+
 •	When it was released, the paper presented a new dataset called PubMed 200k RCT which consists of ~200,000 labelled Randomized Controlled Trial (RCT) Abstract. 
+
 •	The goal of the dataset was to explore the ability of NLP models to classify sentences which appear in sequential order.
+
 •	Problem in the sentence:  The number of RCT papers released is continuing to increase, those without structed abstracts can be hard to read and in turn slow down researchers moving through the literature
+
 •	Solution in the sentence: Create an NLP and deep learning model to classify abstract sentences into the role they play (e.g., objective, methods, results, conclusion etc) to enable researchers to skim through the literature (hence Sentence Classification 😎) and dive deeper when necessary
+
 •	In this project, converting the dataset from dictionary to dataframe format and applying preprocessing steps such as OneHotEncoder, LabelEncoder  and applying text into list
+
 •	Created 4 different models where the Baseline Model 1: Consist of multinomial Naïve Base Model. Also Implemented Text Vectorization and Text Embedding also Character Embedding.
+
 •	Model 2: Contains Convolution 1D with token embeddings, Model 3: contains Feature Extraction with pre-trained token embedding. The last Model 4: was Pre-trained Model + Char Embedding + Positional Embedding
+
 •	Lastly, we observed the results of all four models and evaluated those models and made a prediction. 
 
 
